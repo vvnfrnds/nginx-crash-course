@@ -7,9 +7,9 @@ app.use('/images', express.static(path.join(__dirname, 'images')));
 
 app.use('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
-    console.log(`Request served by node app`);
+    console.log(`Request served by ${process.env.APP_NAME}`);
 });
 
 app.listen(port, () => {
-    console.log(`node app is listening on port ${port}`);
+    console.log(`${process.env.APP_NAME} is listening on port ${port}`);
 });
