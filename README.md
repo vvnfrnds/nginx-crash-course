@@ -3,7 +3,7 @@
 ### Commands used in the tutorial
 
 ##### start nginx
-nginx
+`nginx`
 
 ##### get options
 nginx -h
