@@ -18,7 +18,7 @@
 `tail -f /usr/local/var/log/nginx/access.log`
 
 ##### restart nginx
-`nginx -s reload` 
+`nginx -s reload`
 
 ##### create folder for nginx certificates
 `mkdir ~/nginx-certs`
