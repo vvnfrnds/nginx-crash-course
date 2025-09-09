@@ -13,5 +13,5 @@ server {
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
         }
-        access_log /var/log/nginx/access.log upstreamlog;
+        access_log /var/log/nginx/access.log upstreamlog;  //Only to check live logs.. Prior changes in nginx.conf is required
 }
