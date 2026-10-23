@@ -1,3 +1,4 @@
+#Docker compose file for the nginx app project
 version: '3'
 services:
   app1:
