@@ -1,4 +1,4 @@
-#Dockerfile for node Project
+#Dockerfile for nodejs Project
 FROM node:14
 WORKDIR /app
 COPY package*.json ./
